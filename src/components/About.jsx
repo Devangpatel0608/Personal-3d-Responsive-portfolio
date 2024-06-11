@@ -7,6 +7,7 @@ import { about } from "../data";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
+import profile from "../assets/profile/1.JPG";
 
 
 const About = () => {
@@ -38,7 +39,7 @@ const About = () => {
         <div className='relative w-full md:w-3/5 flex justify-center items-center'>
             <div className='w-[250px] h-[250px] sm:w-[250px] sm:h-[250px] md:w-[300px] md:h-[300px] lg:w-[570px] lg:h-[570px]'>
               <img
-                src={about.image}
+                src={profile}
                 alt='about_image'
                 className='w-full h-full object-cover rounded-full'
               />
