@@ -1,7 +1,11 @@
-import { useEffect, useRef } from 'react';
-import { BrowserRouter } from "react-router-dom";
-import { Contact, Experience, Hero, Navbar, Portfolio } from "./components";
-import About from './components/about';
+import React, { useRef } from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Experience from './components/Experience';
+import Contact from './components/Contact';
 
 const App = () => {
   const wrapperRef = useRef(null);
