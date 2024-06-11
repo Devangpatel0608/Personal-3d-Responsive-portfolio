@@ -7,7 +7,7 @@ import { about } from "../data";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
-import profile from "../assets/profile/1.JPG";
+import profile from "../assets/profile/1.jpg";
 
 
 const About = () => {
