@@ -7,6 +7,7 @@ import {
   faPhp,
   faAndroid,
   faApple,
+  faReact,
 } from "@fortawesome/free-brands-svg-icons";
 import { faPython } from "@fortawesome/free-brands-svg-icons/faPython";
 import { faJava } from "@fortawesome/free-brands-svg-icons/faJava";
@@ -18,6 +19,7 @@ const KnownLanguages = () => {
   const [languages] = useState([
     { name: "PHP", icon: <FontAwesomeIcon icon={faPhp} size="3x" />, },
     { name: "Python", icon: <FontAwesomeIcon icon={faPython} size="3x" />, },
+    { name: "React", icon: <FontAwesomeIcon icon={faReact} size="3x" />, },
     { name: "Node.js", icon: <FontAwesomeIcon icon={faNodeJs} size="3x" />, },
     { name: "Java", icon: <FontAwesomeIcon icon={faJava} size="3x" />, },
     { name: "DBMS + SQL", icon: <FontAwesomeIcon icon={faDatabase} size="3x" />, },
